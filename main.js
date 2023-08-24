@@ -32,8 +32,16 @@ const teamMembers = [
   },
 ];
 
+// STAMPO SU CONSOLE i membri del team
+const membersContainer = document.getElementById("members-cont");
 for (let tMembers of teamMembers) {
   console.log(
     tMembers.Name + " - " + tMembers.Role + " - " + tMembers.userPhoto
   );
+  membersContainer.innerHTML += `
+    <div>
+    Name: ${tMembers.Name} | Role: ${tMembers.Role} | Photo: ${tMembers.userPhoto} </div>
+`;
 }
+
+// Stampo sul DOM i membri del team
