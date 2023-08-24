@@ -42,8 +42,8 @@ for (let tMembers of teamMembers) {
   );
 
   membersCards.innerHTML += ` 
-    <div class="col-4">
-    <div class="card mb-5" style="width: 18rem">
+    <div class="col-4 mb-5 d-flex justify-content-center">
+    <div class="card" style="width: 18rem">
             <img src="${tMembers.userPhoto}" class="card-img-top" alt="..." />
         <div class="card-body">
             <h5 class="card-title"> ${tMembers.Name} </h5>
