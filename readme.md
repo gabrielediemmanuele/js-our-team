@@ -21,6 +21,7 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 
 - BONUS 1:
   Trasformare la stringa foto in una immagine effettiva
+
 - BONUS 2:
   Organizzare i singoli membri in card/schede
 
@@ -38,4 +39,11 @@ Buon lavoro!
      keys e valori: nome, ruolo e stringa della foto.
 2. Stampo su console con console.log() le info di ogni membro del team.
 
-3. Stampo sul DOM le info anche sul documento.
+3. Stampo anche sul DOM.
+   1. Creo una costante per agganciarmi al DOM,
+      tramite id.
+   2. Creo un ciclo for "of" dato che si parla di un Array di oggetti per recuperare i dati del team.
+
+## BONUS
+
+- Sempre dentro il ciclo for, creo un innerHTML con il literal Template, per creare, per ogni membro del team una card (con Bootstrap).
