@@ -31,3 +31,9 @@ const teamMembers = [
     userPhoto: "barbara-ramos-graphic-designer.jpg",
   },
 ];
+
+for (let tMembers of teamMembers) {
+  console.log(
+    tMembers.Name + " - " + tMembers.Role + " - " + tMembers.userPhoto
+  );
+}
