@@ -44,6 +44,8 @@ Buon lavoro!
       tramite id.
    2. Creo un ciclo for "of" dato che si parla di un Array di oggetti per recuperare i dati del team.
 
-## BONUS
+## BONUS 1 & 2
+
+- Per le immagini, ricavo la stringa dal file html e la copio nel valore dell'oggetto per ogni membro del team.
 
 - Sempre dentro il ciclo for, creo un innerHTML con il literal Template, per creare, per ogni membro del team una card (con Bootstrap).
