@@ -40,8 +40,8 @@ for (let tMembers of teamMembers) {
   console.log(
     tMembers.Name + " - " + tMembers.Role + " - " + tMembers.userPhoto
   );
-  membersCards.innerHTML += `
-    
+
+  membersCards.innerHTML += ` 
     <div class="col-4">
     <div class="card mb-5" style="width: 18rem">
             <img src="${tMembers.userPhoto}" class="card-img-top" alt="..." />
@@ -53,6 +53,7 @@ for (let tMembers of teamMembers) {
  </div>
 `;
 }
+
 //** per stampare i membri del team in modo semplice */
 /* const membersContainer = document.getElementById("members-cont"); */
 /* membersContainer.innerHTML += `
