@@ -35,7 +35,7 @@ Buon lavoro!
 
 1. Creo un array che contiene i membri del team.
    - ogni membro del team sarà caratterizzato da
-     keys e valori.
+     keys e valori: nome, ruolo e stringa della foto.
 2. Stampo su console con console.log() le info di ogni membro del team.
 
 3. Stampo sul DOM le info anche sul documento.
